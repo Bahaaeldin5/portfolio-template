@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template one</title>
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <!-- start setting Box -->
+    <div class="setting-box">
+        <div class="setting-container">
+        <div class="icon-setting">
+            <i class="fa fa-gear setting"></i>
+        </div>
+            <div class="setting-option">
+                <h4>colors</h4>
+                <ul class="color-list">
+                    <li class="active" data-color="#009688"></li>
+                    <li data-color="#f44336"></li>
+                    <li data-color="#9c27b0"></li>
+                    <li data-color="#607D8B"></li>
+                    <li data-color="#e91e63"></li>
+                </ul>
+            </div>
+            <div class="setting-option">
+                <h4>Background Change</h4>
+                <div class="btn-change">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+                <div class="select-background">
+                    <h3>Select Image</h3>
+                    <span class="one active" data-img="10.jpg"></span>
+                    <span class="two" data-img="20.jpg"></span>
+                    <span class="three" data-img="30.jpg"></span>
+                    <span class="four" data-img="40.jpg"></span>
+                    <span class="five" data-img="50.jpg"></span>
+                </div>
+            </div>
+            <div class="setting-option">
+                <h4>Bullets Change</h4>
+                <div class="bullet-change">
+                    <span class="yes active" data-display="show">show</span>
+                    <span class="no" data-display="hidden">hidden</span>
+                </div>
+            </div>
+            <button class="btn-reset">Reset</button>
+        </div>
+    </div>
+    <!-- end setting Box -->
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">About-us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">Our Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+    </div>
+    <!-- End Nav Bullets -->
+    <!-- start landing page -->
+    <div class="landing-page">
+        <div class="overflow"></div>
+        <div class="container">
+            <div class="header">
+                <div class="logo">My <span>Company</span></div>
+                <div class="container-links">
+                    <ul class="links">
+                        <li><a href="#" data-section=".about-us">About-us</a></li>
+                        <li><a href="#" data-section=".skills">Skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#" data-section=".features">Features</a></li>
+                        <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+                    </ul>
+                    <div class="toggle-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                </div>
+        </div>
+            <div class="section-text">
+                <h1>My First <span>Project</span></h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam deleniti magnam aspernatur dolore cumque sint neque,
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+    </div>
+    <!-- end landing page -->
+    <!-- Start About Us -->
+    <div class="container">
+        <div class="about-us">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores excepturi mollitia soluta perferendis quaerat dicta, exercitationem ad, temporibus saepe architecto, explicabo at officiis cupiditate quidem maiores ab quos ducimus quibusdam.</p>
+                <span class="btn-read-more">Read More</span>
+            </div>
+            <div class="about-img">
+                <img src="image/5042135.jpg" alt=""/>
+            </div>
+        </div>
+    </div>
+    <!-- end About Us -->
+    <!-- Start Skills -->
+    <div class="skills">
+        <div class="container">
+            <h2>Our Skills</h2>
+            <div class="skill-box">
+                <div class="skill-text">HTML</div>
+                <div class="skill-progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-text">CSS</div>
+                <div class="skill-progress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-text">JavaScript</div>
+                <div class="skill-progress">
+                    <span data-progress="50%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-text">PHP</div>
+                <div class="skill-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-text">MYSQL</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-text">Python</div>
+                <div class="skill-progress">
+                    <span data-progress="20%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Skills -->
+    <!-- Start Gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="image-box">
+                <img src="image/10.jpg" alt="Image One"/>
+                <img src="image/20.jpg" alt="Image Two"/>
+                <img src="image/30.jpg" alt="Image Three"/>
+                <img src="image/40.jpg" alt="Image Four"/>
+                <img src="image/50.jpg" alt="Image Five"/>
+                <img src="image/60.jpg" alt="Image Sex"/>
+                <img src="image/70.jpg" alt="Image Seven"/>
+                <img src="image/80.jpg" alt=""/>
+                <img src="image/90.jpg" alt=""/>
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- Start Timeline -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2023</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Timeline</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo vel ullam assumenda, temporibus porro quo ratione. Eum nulla necessitatibus cumque, rerum expedita sit inventore tempore quidem accusantium autem ad ipsa!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Timeline</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo vel ullam assumenda, temporibus porro quo ratione. Eum nulla necessitatibus cumque, rerum expedita sit inventore tempore quidem accusantium autem ad ipsa!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2020</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Timeline</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo vel ullam assumenda, temporibus porro quo ratione. Eum nulla necessitatibus cumque, rerum expedita sit inventore tempore quidem accusantium autem ad ipsa!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Timeline</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo vel ullam assumenda, temporibus porro quo ratione. Eum nulla necessitatibus cumque, rerum expedita sit inventore tempore quidem accusantium autem ad ipsa!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Timeline</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo vel ullam assumenda, temporibus porro quo ratione. Eum nulla necessitatibus cumque, rerum expedita sit inventore tempore quidem accusantium autem ad ipsa!</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Timeline -->
+    <!-- Star Features  -->
+    <div class="features">
+        <div class="container">
+            <h2>Our Featurs</h2>
+            <div class="feat-box">
+                <img src="image/01.jpg" alt="">
+                <h4>Devlopment</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias laboriosam</p>
+            </div>
+            <div class="feat-box">
+                <img src="image/02.jpg" alt="">
+                <h4>Devlopment</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias laboriosam</p>
+            </div>
+            <div class="feat-box">
+                <img src="image/03.jpg" alt="">
+                <h4>Devlopment</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias laboriosam</p>
+            </div>
+            <div class="feat-box">
+                <img src="image/04.jpg" alt="">
+                <h4>Devlopment</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias laboriosam</p>
+            </div>
+            <div class="feat-box">
+                <img src="image/05.jpg" alt="">
+                <h4>Devlopment</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias laboriosam</p>
+            </div>
+            <div class="feat-box">
+                <img src="image/06.jpg" alt="">
+                <h4>Devlopment</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias laboriosam</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!-- End Features  -->
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="content-testi">
+            <div class="ts-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque labore, quasi dolorum quisquam inventore sequi in non eius autem</p>
+                <div class="person-info">
+                    <img src="http://placehold.it/80/ddd" alt="">
+                    <h4>Hamza Bhaa</h4>
+                    <p>SEO Campany</p>
+                </div>
+            </div>
+            <div class="ts-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque labore, quasi dolorum quisquam inventore sequi in non eius autem</p>
+                <div class="person-info">
+                    <img src="http://placehold.it/80/ddd" alt="">
+                    <h4>Hozifa Bhaa</h4>
+                    <p>SEO Campany</p>
+                </div>
+            </div>
+            <div class="ts-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque labore, quasi dolorum quisquam inventore sequi in non eius autem</p>
+                <div class="person-info">
+                    <img src="http://placehold.it/80/ddd" alt="">
+                    <h4>Elshimaa Mahumod</h4>
+                    <p>SEO Campany</p>
+                </div>
+            </div>
+        </div>
+            <div class="content-testi">
+            <div class="ts-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque labore, quasi dolorum quisquam inventore sequi in non eius autem</p>
+                <div class="person-info">
+                    <img src="http://placehold.it/80/ddd" alt="">
+                    <h4>Hamza Bhaa</h4>
+                    <p>SEO Campany</p>
+                </div>
+            </div>
+            <div class="ts-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque labore, quasi dolorum quisquam inventore sequi in non eius autem</p>
+                <div class="person-info">
+                    <img src="http://placehold.it/80/ddd" alt="">
+                    <h4>Hozifa Bhaa</h4>
+                    <p>SEO Campany</p>
+                </div>
+            </div>
+            <div class="ts-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque labore, quasi dolorum quisquam inventore sequi in non eius autem</p>
+                <div class="person-info">
+                    <img src="http://placehold.it/80/ddd" alt="">
+                    <h4>Elshimaa Mahumod</h4>
+                    <p>SEO Campany</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- start Contact-Us -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact-Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="UserName" name="name"/>
+                    <input type="text" placeholder="Your Phone" name="phone"/>
+                    <input type="email" placeholder="Your Email" name="email"/>
+                    <input type="text" placeholder="Subject" name="subject"/>
+                </div>
+                <div class="right">
+                    <textarea name="massage" placeholder="Write Your Massage"></textarea>
+                    <input type="submit" value="send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Contact-Us -->
+    <!-- Start footer -->
+    <div class="footer">
+        <div class="icon-footer">
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.google.com.eg/" target="_blank">
+                <i class="fa-brands fa-google"></i>
+            </a>
+        </div>
+        <div class="text-footer">
+            &copy; 2023 copyright: Bahaa El_din
+        </div>
+    </div>
+    <!-- End footer -->
+    <script src="js/main.js"></script>
+</body>
+</html>
